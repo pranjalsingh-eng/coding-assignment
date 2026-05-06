@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/devices")
 @RequiredArgsConstructor
@@ -14,6 +16,18 @@ public class DeviceController {
 
     private final DeviceRepository deviceRepository;
     private final SseEmitterRegistry emitterRegistry;
+
+    @GetMapping
+    public ResponseEntity<List<Device>> getAllDevices() {
+        return ResponseEntity.ok(deviceRepository.findAll());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Device> getDeviceById(@PathVariable Long id) {
+        return deviceRepository.findById(Math.toIntExact(id))
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
 
     @GetMapping("/notifications")
     public SseEmitter subscribe() {
@@ -29,6 +43,4 @@ public class DeviceController {
 
         return ResponseEntity.ok("Flag set");
     }
-
-
 }

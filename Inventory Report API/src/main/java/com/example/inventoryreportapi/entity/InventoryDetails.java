@@ -1,5 +1,7 @@
 package com.example.inventoryreportapi.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
@@ -19,6 +21,7 @@ public class InventoryDetails {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "inventory_id")
+    @JsonBackReference
     private Inventory inventory;
 
     @Column(name = "inventory_details")

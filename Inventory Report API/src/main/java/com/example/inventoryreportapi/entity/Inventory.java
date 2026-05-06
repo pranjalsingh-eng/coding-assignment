@@ -1,5 +1,6 @@
 package com.example.inventoryreportapi.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
@@ -26,6 +27,10 @@ public class Inventory {
 
     @Column(name = "cost")
     private Double cost;
+
+    @OneToMany(mappedBy = "inventory", cascade = CascadeType.ALL)
+    @JsonManagedReference
+    private List<InventoryDetails> inventoryDetails;
 
 
 }
