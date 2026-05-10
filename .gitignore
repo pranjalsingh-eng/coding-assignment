@@ -52,3 +52,6 @@ delombok/
 
 # Jar files
 *.jar
+__pycache__/
+*.pyc
+*.exe
