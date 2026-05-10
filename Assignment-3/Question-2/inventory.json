@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "192.168.1.1": { "ip": "192.168.1.1", "os": "Linux",   "memory": "16GB",  "cpu": "3.8Ghz", "disk": "500GB" },
+    "192.168.1.2": { "ip": "192.168.1.2", "os": "Windows", "memory": "32GB",  "cpu": "2.5Ghz", "disk": "1TB"   },
+    "192.168.1.3": { "ip": "192.168.1.3", "os": "Linux",   "memory": "8GB",   "cpu": "4.2Ghz", "disk": "250GB" },
+    "192.168.1.4": { "ip": "192.168.1.4", "os": "Windows", "memory": "64GB",  "cpu": "3.2Ghz", "disk": "2TB"   }
+  }
+}
