@@ -1,0 +1,42 @@
+[
+    {
+        "dir": {
+            "output": "Volume in drive C has no label.\n Volume Serial Number is 22D3-7075\n\n Directory of C:\\Users\\pranjal.singh\\OneDrive - Calsoft Pvt Ltd\\Desktop\\Coding-Assesment\\Assignment-4\n\n13-05-2026  21:04    <DIR>          .\n13-05-2026  21:01    <DIR>          ..\n13-05-2026  21:04                 0 output.json\n13-05-2026  21:09             2,197 q1_execute_commands.py\n               2 File(s)          2,197 bytes\n               2 Dir(s)  75,278,831,616 bytes free",
+            "error": "",
+            "status": "success",
+            "execution_time_sec": 0.0471
+        }
+    },
+    {
+        "cd": {
+            "output": "C:\\Users\\pranjal.singh\\OneDrive - Calsoft Pvt Ltd\\Desktop\\Coding-Assesment\\Assignment-4",
+            "error": "",
+            "status": "success",
+            "execution_time_sec": 0.0318
+        }
+    },
+    {
+        "hostname": {
+            "output": "IN-6BBFGR3",
+            "error": "",
+            "status": "success",
+            "execution_time_sec": 0.0798
+        }
+    },
+    {
+        "invalid_command": {
+            "output": "",
+            "error": "'invalid_command' is not recognized as an internal or external command,\noperable program or batch file.",
+            "status": "Failed",
+            "execution_time_sec": 0.0425
+        }
+    },
+    {
+        "whoami": {
+            "output": "calsofthq\\pranjal.singh",
+            "error": "",
+            "status": "success",
+            "execution_time_sec": 0.097
+        }
+    }
+]
