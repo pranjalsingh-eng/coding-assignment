@@ -345,7 +345,7 @@ Petyr Baelish                7
 ```
 
 #### 📸 Screenshots
-![Top 10 Characters](screenshots/top10_charcter_result.png)
+![Top 10 Characters](screenshots/top10_character_result.png)
 
 ---
 
