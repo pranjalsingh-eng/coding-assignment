@@ -54,7 +54,7 @@ def execute_commands(commands: list) -> list:
 
 ---
 
-## Problem 2 — Sierpiński Graphs (PE #312)
+## Problem 2 — Cubic Permutations (PE #62) 
 
 `C(n)` = Hamiltonian cycles on `S_n`. Uses recurrence: `h(n+1) = p(n)³`, `p(n+1) = p(n)×(3h(n)+1)`
 
@@ -75,7 +75,7 @@ def execute_commands(commands: list) -> list:
 
 ---
 
-## Problem 3 — Cubic Permutations (PE #62)
+## Problem 3 —  Sierpiński Graphs (PE #312)
 
 Find the smallest cube where exactly 5 digit-permutations are also cubes.
 
