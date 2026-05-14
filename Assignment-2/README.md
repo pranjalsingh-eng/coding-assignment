@@ -172,7 +172,7 @@ Houses of Ice and Fire - Sorted Alphabetically
 ```
 
 #### 📸 Screenshot
-![Houses Result](screenshots/house_result.png)
+![Houses Result](screenshots/houses_result.png)
 
 ---
 
