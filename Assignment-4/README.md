@@ -55,28 +55,6 @@ def execute_commands(commands: list) -> list:
 ---
 
 ## Problem 2 — Cubic Permutations (PE #62) 
-
-`C(n)` = Hamiltonian cycles on `S_n`. Uses recurrence: `h(n+1) = p(n)³`, `p(n+1) = p(n)×(3h(n)+1)`
-
-**Verified:**
-- `C(3) = 8` ✅
-- `C(5) = 71328803586048` ✅
-- `C(10000) mod 13^8 = 617720485` ✅
-
-**Find:** `C(C(C(10000))) mod 13^8`
-
----
-
-## 📸 Result Screenshots
-
-<p align="center">
-  <img src="screenshots/q2_cubic_permutations_result.png" alt="Log Parsing Result" width="900"/>
-</p>
-
----
-
-## Problem 3 —  Sierpiński Graphs (PE #312)
-
 Find the smallest cube where exactly 5 digit-permutations are also cubes.
 
 ```python
@@ -104,6 +82,28 @@ def solve_p62():
 
 Answer: 127035954683
 ```
+---
+
+## 📸 Result Screenshots
+
+<p align="center">
+  <img src="screenshots/q2_cubic_permutations_result.png" alt="Log Parsing Result" width="900"/>
+</p>
+
+---
+
+## Problem 3 —  Sierpiński Graphs (PE #312)
+
+
+`C(n)` = Hamiltonian cycles on `S_n`. Uses recurrence: `h(n+1) = p(n)³`, `p(n+1) = p(n)×(3h(n)+1)`
+
+**Verified:**
+- `C(3) = 8` ✅
+- `C(5) = 71328803586048` ✅
+- `C(10000) mod 13^8 = 617720485` ✅
+
+**Find:** `C(C(C(10000))) mod 13^8`
+
 ---
 ## 📸 Result Screenshots
 
