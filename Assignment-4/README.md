@@ -5,8 +5,8 @@
 | # | Problem | Answer |
 |---|---------|--------|
 | 1 | Execute OS Commands (Q1) | JSON structured output |
-| 2 | Cyclic Paths on Sierpiński Graphs (PE #312) | `C(C(C(10000))) mod 13^8` |
-| 3 | Cubic Permutations (PE #62) | `127035954683` |
+| 2 | Cubic Permutations (PE #62) | `127035954683` |
+| 3 | Cyclic Paths on Sierpiński Graphs (PE #312) | `C(C(C(10000))) mod 13^8` |
 
 ---
 
